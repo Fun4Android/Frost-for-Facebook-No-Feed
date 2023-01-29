@@ -92,4 +92,4 @@ enum class FbItem(
 }
 
 fun defaultTabs(): List<FbItem> =
-  listOf(FbItem.FEED, FbItem.MESSAGES, FbItem.NOTIFICATIONS, FbItem.MENU)
+  listOf(FbItem.MESSAGES, FbItem.NOTIFICATIONS, FbItem.MENU)
