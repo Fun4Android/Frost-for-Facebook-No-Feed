@@ -1,3 +1,14 @@
+# Frost-for-Facebook-NoFeed
+
+This is a version of Frost-for-Facebook with removed News Feed tab and Messages tab. It is just a wrapper of the Facebook mobile website.
+It allows you to check notifications, events etc. It is meant for people who want to disable the Facebook news feed on Android.
+
+For messages, you can just use the official Messenger for Android.
+
+I don't offer a prebuilt APK for this, you need to build it yourself with Android Studio. You can then copy the apk e.g. via Dropbox or your email to your phone and install it with an app like Split APKs Installer (SAI). I also don't offer any support as I just removed a few things from the original Frost-for-Facebook app.
+
+Below is the original readme of this project.
+
 # Frost-for-Facebook
 
 [![Releaes Version](https://img.shields.io/github/release/AllanWang/Frost-for-Facebook.svg)](https://github.com/AllanWang/Frost-for-Facebook/releases)
