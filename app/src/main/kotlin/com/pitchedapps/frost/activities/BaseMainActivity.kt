@@ -297,21 +297,17 @@ abstract class BaseMainActivity :
 
     with(navigation) {
       FrostMenuBuilder(this@BaseMainActivity, menu).apply {
-        primaryFrostItem(FbItem.FEED_MOST_RECENT)
-        primaryFrostItem(FbItem.FEED_TOP_STORIES)
         primaryFrostItem(FbItem.ACTIVITY_LOG)
         divider()
         primaryFrostItem(FbItem.PHOTOS)
         primaryFrostItem(FbItem.GROUPS)
         primaryFrostItem(FbItem.FRIENDS)
-        primaryFrostItem(FbItem.CHAT)
         primaryFrostItem(FbItem.PAGES)
         divider()
         primaryFrostItem(FbItem.EVENTS)
         primaryFrostItem(FbItem.BIRTHDAYS)
         primaryFrostItem(FbItem.ON_THIS_DAY)
         divider()
-        primaryFrostItem(FbItem.NOTES)
         primaryFrostItem(FbItem.SAVED)
         primaryFrostItem(FbItem.MARKETPLACE)
       }
